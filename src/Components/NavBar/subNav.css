@@ -1,0 +1,69 @@
+
+.subNav
+{
+    position: absolute;
+    top:100%;
+    left: 0;
+    width: 150px;
+    height: auto;
+    padding: 10px 20px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10%;
+}
+.subChildNav{
+    position: absolute;
+    left: 110%;
+    top: 0;
+    width: 150px;
+    height: auto;
+    padding: 10px 20px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10%;
+}
+.menu
+{
+    display: block;
+}
+
+.navItem
+{
+    display: none;
+}
+
+
+
+
+@media screen and  (min-width:720px) {
+    .navItem{
+        display: inline-flex;
+    }
+    .menu
+    {
+        display: none;
+    }
+    
+}
+.login:hover .spn
+{
+    display: block;
+}
+
+.spn
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: beige;
+    font-size: .7rem;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+}

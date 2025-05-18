@@ -1,0 +1,49 @@
+.itemAnimation
+{
+    position: relative;
+    padding-bottom: 3px;
+}
+.itemAnimation::before
+{
+    content: "";
+    position: absolute;
+    bottom: -1%;
+    left: 0;
+    width: 0px;
+    height: 1px;
+    background-color: red;
+    border-radius: 20px;
+    animation: snake 3s  forwards   ease-in-out;
+    
+}
+@keyframes snake {
+    0%
+    {
+        width: 1%;
+       
+    }
+    25%
+    {
+        width: 10%;
+        
+        
+    }
+    50%
+    {
+        width: 25%
+   
+        
+    }
+    75%
+    {
+        width: 55%
+    }
+    100%
+    {
+        
+    width: 100%
+
+    }
+   
+}
+

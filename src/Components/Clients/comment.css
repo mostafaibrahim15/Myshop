@@ -1,0 +1,18 @@
+.comment
+{
+    position: relative;
+}
+.triangle
+{
+    position: absolute;
+    bottom: -80px;
+    left: 10%;
+    width: 50px;
+    height: 40px;
+    border:40px solid white;
+    border-top-color:transparent ;
+    border-left-color:transparent ;
+   
+}
+
+

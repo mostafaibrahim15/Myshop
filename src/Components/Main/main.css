@@ -1,0 +1,53 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+.landingImage
+{
+    background-image: url("https://i.pinimg.com/736x/23/5c/66/235c66f5b72a799e0a89da145fccd9cf.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landingImage2
+{
+    background-image: url("https://i.pinimg.com/736x/7c/f8/88/7cf8883826692bdcfb305c95537f3bf4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textDirection
+{
+    transform: rotate(90deg);
+}
+
+.navbarColor
+{
+    background-color: rgba(0, 0, 0,.7);
+    color: #fff !important;
+}
+.parent
+{
+    transition: transform 4s ease-in-out;
+}
+
+.childTransform
+{
+   transform: translateX(100%); 
+   
+}
+.yellowText
+{
+    color: rgb(240, 186, 23) !important;
+}
+.show
+{
+    display: flex;
+}
+
+.hide
+{
+    display: none;
+}
